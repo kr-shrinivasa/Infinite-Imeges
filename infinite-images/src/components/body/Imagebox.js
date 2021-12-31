@@ -44,7 +44,7 @@ export default function Imagebox() {
         <div className="center">
             <p>type url to add images.....</p>           
             <div className='add-form'>
-                <input type="text" value={newurl} onChange={handlechange}/>
+                <input type="text" value={newurl} placeholder='type url' onChange={handlechange}/>
                 <button onClick={handleclick}><span></span> Add Image</button>
             </div>
             </div>

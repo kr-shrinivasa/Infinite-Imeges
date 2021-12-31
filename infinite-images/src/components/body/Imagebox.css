@@ -13,18 +13,22 @@
     width: 90%;
     margin: 50px auto;
     text-align: center;
-    color: rgb(236, 229, 229);
+    /* color: rgb(236, 229, 229);    */
 }
-
+h1{
+    color: black;
+}
 
 
 .image-box{
     /* display: grid; */
-    grid-column-gap: 24px;
-    align-items: start;
-    display: grid;
-    grid-template-columns: repeat(3,minmax(0,1fr));
-    row-gap: 24px;
+    /* grid-column-gap: 24px; */
+    /* align-items: start; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,minmax(0,1fr)); */
+    column-count: 4;
+    margin: 20px 0;
+    /* row-gap: 24px; */
 }
 
 
@@ -53,12 +57,9 @@ input{
     width: 78%;
     padding:  .5rem;
     font-size: 1rem;
-    background: rgba(255, 255, 255,0.7);
+    background: rgba(255, 255, 255,);
     transition: color 0.5s;
-}
-input:hover{
-    background: rgb(255, 255, 255);
-    
+    border-radius: 20px;
 }
 
 button{
@@ -68,19 +69,18 @@ button{
     cursor: pointer;
     /* border: 1px solid white; */
     border-radius: 5px;
-    /* outline: none; */
+    outline: none;
     font-size: 1rem;
     z-index: 5;
     display: inline-block;
     transition: color 0.5s;
     position: relative;
+    border: none;
 }
 
 .image-container{
     height: fit-content;  
 }
-
-
 
 button span{
     width: 0;
@@ -93,8 +93,11 @@ button span{
     transition: 0.5s;
 }
 button:hover span{
-    width: 100%;   
+    width: 100%;
+    /* background: black;    */
+
 }
 button:hover{
-    color:white;   
+    color:rgb(250, 245, 245);
 }
+

@@ -8,9 +8,9 @@ export default function Navbar() {
         <nav className='nav-list '>
             <h1 className="logo">Infinte Images</h1>
             <ul className='list-items ' >
-                <li>Gallary</li>
-                <li>tensor Flow</li>
-                <li>Login</li>
+                <li><span></span> Gallary</li>
+                <li><span></span>tensor Flow</li>
+                <li><span></span>Login</li>
             </ul>
         </nav>            
         </header>
