@@ -14,17 +14,16 @@ hosted in Heroku App
 " https://infinite-images.herokuapp.com/"
 
 some pictures:
-main-page
-"./pictures/main-heroku.PNG"
+ ![Home](pictures/main-Heroku.PNG)
 
-small devices
-"./pictures/Capture mobile.PNG"
 
-pagination
-"./pictures/Capture-pagination.PNG"
+![small devices](pictures/Capture-mobile.PNG)
 
-contact
-"./pictures/Capture contact.PNG"
+
+![pagination](pictures/Capture-Pagination.PNG)
+
+
+![contact](pictures/Capture-contact.PNG)
 
 
 
