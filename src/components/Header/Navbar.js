@@ -17,7 +17,7 @@ export default function Navbar() {
         <header className=''>
         <nav className='nav-list '>
             
-            <NavLink to={'/'} className='Nav_link' activeClassName='activeRoute'><h1 className="logo">Infinte Images</h1></NavLink>
+            <NavLink to={'/'} className='Nav_link' activeClassName='activeRoute'><h1 className="logo">Infinite Images</h1></NavLink>
                 <div id="menubtn" >
                     {isopen ? <i class="fa fa-close"onClick={handlebars} ></i>:
                 <i class="fa fa-bars" onClick={handlebars}></i> }
