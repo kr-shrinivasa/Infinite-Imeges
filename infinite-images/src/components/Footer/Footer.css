@@ -6,16 +6,10 @@
     position: relative;
     text-align: center;
 }
-/* .frow{
-    width:80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    /* flex-wrap: wrap; */
 
-/* } */ */
+
 .fright{
-    /* flex-basis: 45%; */
+   
     padding: 10px;
     margin-bottom: 20px;
     width:80%;
@@ -45,7 +39,7 @@
     height: 40px;
     width: 40px;
     font-size: 20px;
-    /* line-height: 40px; */
+   
     border: 1px solid black;
     border-radius: 20px;
     margin: 40px 5px 0;
