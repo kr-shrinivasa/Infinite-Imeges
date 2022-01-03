@@ -45,7 +45,7 @@ export default function Imagebox() {
             <p>search photos</p>           
             <div className='add-form'>
                 <input type="text"  placeholder=' ex:Dogs,Cars Etc....' onChange={handlechange}/>
-                <button onClick={handleclick}><span></span> search image</button>
+                <button onClick={handleclick}><span></span> search</button>
             </div>
             </div>
         </section>

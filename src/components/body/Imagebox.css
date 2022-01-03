@@ -66,7 +66,7 @@ button{
     border-radius: 5px;
     outline: none;
     font-size: 1rem;
-    z-index: 2;
+    z-index: 1;
     display: inline-block;
     transition: color 0.5s;
     position: relative;
@@ -123,6 +123,7 @@ button:hover{
         display: block;
         margin:10px auto;
     padding: .5rem 1rem;
+    z-index: -1;
     }
     .add-form{
         width: 100%;
@@ -132,6 +133,7 @@ button:hover{
         transition: color 0.5s;
         border-radius: 20px;
         display: block;
+        z-index: 0;
     }
     
 }
