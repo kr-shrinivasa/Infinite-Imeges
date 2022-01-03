@@ -89,7 +89,7 @@ button span{
 }
 button:hover span{
     width: 100%;
-    /* background: black;    */
+    
 
 }
 button:hover{
@@ -123,6 +123,7 @@ button:hover{
         display: block;
         margin:10px auto;
     padding: .5rem 1rem;
+    z-index: 0;
     
     }
     .add-form{
@@ -133,7 +134,7 @@ button:hover{
         transition: color 0.5s;
         border-radius: 20px;
         display: block;
-        /* z-index: 0; */
+        z-index: 0;
     }
     
 }
