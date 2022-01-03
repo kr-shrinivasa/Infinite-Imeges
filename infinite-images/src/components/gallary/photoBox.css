@@ -6,3 +6,9 @@
     justify-content: space-evenly;
     margin: auto;
 }
+.btn{
+    background-color: rgb(163, 158, 175);
+}
+h1{
+    margin: 20px 0;
+}

@@ -78,3 +78,22 @@
     }
 }
 
+@media screen and (max-width:770px){
+    .fright{
+        padding: 10px;
+        margin-bottom: 20px;
+        width:80%;
+        margin: 0 auto;
+        text-align: center;
+    
+    
+    }
+    #footer{
+        padding: 60px 0 20px;
+        background: #efefef;
+        position: relative;
+        text-align: center;
+    }
+
+}
+

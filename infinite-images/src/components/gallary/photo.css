@@ -1,0 +1,42 @@
+
+.image-container{
+    transition: 0.5s;
+    position: relative;    
+
+}
+.arrange{
+    /* display: contents; */
+    position: absolute;
+    top:0%;
+    right: 0;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.5);
+    text-align: right;
+}
+.fa{
+    font-size: 2rem;
+    /* color: black; */
+    color:white;
+    /* background-color: white; */
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    justify-content: space-between;
+    width: 30%;
+
+}
+.fa-tarsh-o{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.hide{
+    display: none;
+}

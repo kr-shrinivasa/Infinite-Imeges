@@ -1,0 +1,56 @@
+.login{
+    width: 40%;
+    margin: 5rem auto;
+    text-align: center;
+    transition: .5s;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(205, 221, 221);
+}
+h2{
+    color: rgb(150, 109, 109);
+    padding-top: 20px;
+    
+}
+
+.content{
+    padding: 5rem;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+   
+}
+
+
+.content label{
+    display: block;
+    color: rgb(53, 45, 45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.content input{
+    display: inline-block;
+    width: 100%;
+    height: 5vh;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+@media screen and (max-width:770px){
+    .login{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .content{
+        padding: 2rem;
+        width: 90%;
+        margin: auto;
+        text-align: left;
+       
+    }
+    
+
+}
+

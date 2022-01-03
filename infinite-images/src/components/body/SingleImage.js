@@ -18,7 +18,7 @@ export default function SingleImage({Image,index,handleRemove}) {
                  
              </div>
 
-            <img src={Image} alt="somethig missing" key={index}   />
+            <img src={Image} alt="" key={index}   />
         </div>
     )
 }
