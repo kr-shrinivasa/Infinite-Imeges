@@ -20,7 +20,7 @@ some pictures:
  ![Home](pictures/main-heroku.PNG)
 
 ##
-![small devices](pictures/Capture-mobile.PNG)
+![small devices](pictures/mobile.PNG)
 
 ##
 ![pagination](pictures/Capture-pagination.PNG)
